@@ -1,3 +1,60 @@
+# AULA DE REDES
+
+## Introdução a conceitos básicos de rede
+
+**Redes:** Dispositivos conectados que conseguem transmitir dados e recursos um para o outro.
+
+### Rede LAN
+Rede Local, a mesma usada em sua casa ou em escolas, consiste em dispositivos que transmitem dados entre si localmente.
+
+### Rede WAN
+Rede de longa distância que conecta diversas redes locais (LANs) e outros sistemas, como servidores, permitindo a transmissão de dados a grandes distâncias, consiste em dispositivos que transmitem dados a longa distância.
+
+## Conceitos
+
+### Host Name (Nome do Host)
+Refere-se ao nome da sua máquina na rede.
+
+### IP (Endereço IP)
+Comparável ao "CPF" da máquina, é um número que identifica sua máquina dentro da rede. Pode ser alterado manualmente.
+
+### MAC Address
+Similar ao "RG", é um número único que identifica a placa de rede do seu computador, não podendo ser alterado.
+
+### TCP/IP (Protocolo de Controle de Transmissão/Protocolo de Internet)
+É um protocolo que permite configurar as propriedades de rede, como o endereço IP, IP público e gateway.
+
+### Gateway (Roteador)
+O gateway (roteador) funciona como uma porta de entrada e saída de dados, permitindo a comunicação entre redes, como a rede local (LAN) e a internet (WAN). O gateway possui um IP próprio na rede local, e o IP público atribuído pelo provedor de internet. O IP público é aquele que é usado para acessar um site.
+
+### DNS
+Converte o nome que o usuário digita no navegador em um IP para se comunicar com o site. Alguns DNS bloqueiam certos sites.
+
+### ICMP (Protocolo de Mensagens de Controle da Internet)
+Facilita a comunicação entre computadores na rede, permitindo a realização de diagnósticos básicos e testes, como saber se está ocorrendo perda de informações na rede.
+
+## Comandos Básicos para Teste em Redes
+
+- **`ipconfig /all`**  
+  Mostra todas as configurações de rede do computador.
+
+- **`hostname`**  
+  Exibe o nome da máquina.
+
+- **`net view`**  
+  Exibe os computadores conectados à rede.
+
+- **`net send`**  
+  Envia uma mensagem para um computador específico na rede. Para isso, o serviço "mensagem" precisa estar ativado.
+
+- **`tracert [nomedosite.com]`**  
+  Mostra a rota que o computador faz até chegar ao site indicado.
+
+- **`ping [nomedosite.com]`**  
+  Testa a conectividade do seu desktop até o site informado.
+
+
+
 Baixe o https://www.virtualbox.org/
 e com o auxilio do professor Instale a ISO do Windows XP
 https://drive.google.com/file/d/1MomeTvtlHJhn48us-nhfQ4lJ7GrWMwH8/view?usp=sharing
