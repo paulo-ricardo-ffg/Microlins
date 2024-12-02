@@ -47,4 +47,4 @@ sudo apt install code
 #Instalação das Extensões Básicas do VSCode
 Portuguese (Brazil) Language Pack for Visual Studio Code
   Sem necessidade de configuração)
-#Code Runner 
+#Code Runner atalho Ctrl + Alt + N
