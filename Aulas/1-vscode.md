@@ -49,7 +49,7 @@ echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft
 ## Passo 6: Atualizar a Lista de Pacotes
 Antes de prosseguir com a instalação, atualize a lista de pacotes:
 ```bash
-sudo apt install code
+sudo snap install --classic code
 ```
 
 ## Passo 7: Instalando e Configurando as Principais Extensões Microsoft Visual Studio Code VSCode
