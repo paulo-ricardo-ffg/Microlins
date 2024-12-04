@@ -2,6 +2,12 @@
 
 Este método usa o gerenciador de pacotes APT para instalar o Node.js a partir dos repositórios padrão do Ubuntu. É uma maneira simples e que integra bem com o gerenciamento de pacotes do seu sistema.
 
+# O que é o node.js
+
+### Node.js: É uma ferramenta que permite rodar JavaScript no servidor, ou seja, fora do navegador. Isso permite criar sites e aplicações mais rápidas.
+
+### NPM: É um programa que ajuda a instalar e organizar ferramentas e bibliotecas que você usa no seu projeto Node.js.
+
 ## 1. Atualizar o Índice de Pacotes
 Antes de instalar novos softwares, é uma boa prática atualizar o índice de pacotes para garantir que você obtenha as versões mais recentes disponíveis.
 ```bash
