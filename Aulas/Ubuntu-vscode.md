@@ -43,13 +43,12 @@ sudo apt install code
 
 ## Passo 7: Instalando e Configurando as Principais Extensões Microsoft Visual Studio Code VSCode
 
-#Instalação das Extensões Básicas do VSCode
-## Portuguese (Brazil) Language Pack for Visual Studio Code
+### Portuguese (Brazil) Language Pack for Visual Studio Code
   (Sem necessidade de configuração)
-## Code Runner atalho Ctrl + Alt + N
+### Code Runner
   (Sem necessidade de configuração)
 
-## Passo 8: Faça um comando Simples para executar com o Code Runner dentro do VSCODE
+## Passo 8: Faça um comando Simples para executar com o Code Runner dentro do VSCODE com o atalho Ctrl + Alt + N
 
 ```bash
 let nome = "seunome"
