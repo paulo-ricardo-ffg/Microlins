@@ -53,6 +53,7 @@ Antes de começar, você precisa garantir que a virtualização esteja ativada n
    - **Nome**: Ubuntu (ou outro nome que preferir).
    - **Tipo**: Linux.
    - **Versão**: Ubuntu (64-bit).
+   - **Pular Instalação dessasistida**: Selecione.
 4. Clique em **Avançar**.
 
 ### 4.2. Configurando o Hardware
