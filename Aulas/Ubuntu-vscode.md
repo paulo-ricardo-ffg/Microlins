@@ -2,16 +2,6 @@
 
 Para instalar o Visual Studio Code no Ubuntu 24.04 LTS, siga os passos abaixo:
 
-## Passo 0: Instalar Drives Do Virtual Box no UBUNTU 
-
-```bash
-sudo apt install bzip2 tar
-```
-
-0.1: Clique em Despositivos, Inserir imagem de CD dos adicionais de Convidado
-
-0.2 Clique no Simbolo de CD que apareceu na barra de tarefas, e execute.
-
 ## Passo 1: Abrir o Terminal
 Abra um terminal usando as teclas `CTRL + ALT + T`.
 
@@ -54,7 +44,16 @@ sudo apt install code
 ## Passo 7: Instalando e Configurando as Principais Extensões Microsoft Visual Studio Code VSCode
 
 #Instalação das Extensões Básicas do VSCode
-# Portuguese (Brazil) Language Pack for Visual Studio Code
+## Portuguese (Brazil) Language Pack for Visual Studio Code
   (Sem necessidade de configuração)
-# Code Runner atalho Ctrl + Alt + N
+## Code Runner atalho Ctrl + Alt + N
   (Sem necessidade de configuração)
+
+## Passo 8: Faça um comando Simples para executar com o Code Runner dentro do VSCODE
+
+```bash
+let nome = "seunome"
+let idade = "suaidade"
+console.log(nome, idade)
+```
+Substitua "seunome" para o seu nome e "suaidade" para sua idade
