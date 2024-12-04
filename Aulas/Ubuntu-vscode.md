@@ -30,31 +30,31 @@ sudo apt clean
  ## Passo 3: Instalar Pacotes Necessários
 Instale alguns pacotes necessários com o seguinte comando:
 ```bash
-sudo apt install wget gpg apt-transport-https
+sudo apt install software-properties-common apt-transport-https wget -y
 ```
 
 ## Passo 4: Baixar e Importar as Chaves GPG da Microsoft
 Para garantir que os pacotes do Visual Studio Code sejam genuínos, baixe e importe as chaves GPG assinadas pela Microsoft com os comandos:
 ```bash
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 ```
 
 ## Passo 5: Adicionar o Repositório do Visual Studio Code
 Adicione o repositório oficial do Visual Studio Code ao sistema para garantir atualizações automáticas:
 ```bash
-echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" | sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 ```
 
-## Passo 6: Atualizar a Lista de Pacotes
-Antes de prosseguir com a instalação, atualize a lista de pacotes:
+## Passo 6: Instalando o VSCODE
+Comando para Baixar o vscode:
 ```bash
-sudo snap install --classic code
+sudo apt install code
 ```
 
 ## Passo 7: Instalando e Configurando as Principais Extensões Microsoft Visual Studio Code VSCode
 
 #Instalação das Extensões Básicas do VSCode
-Portuguese (Brazil) Language Pack for Visual Studio Code
-  Sem necessidade de configuração)
-#Code Runner atalho Ctrl + Alt + N
+# Portuguese (Brazil) Language Pack for Visual Studio Code
+  (Sem necessidade de configuração)
+# Code Runner atalho Ctrl + Alt + N
+  (Sem necessidade de configuração)
