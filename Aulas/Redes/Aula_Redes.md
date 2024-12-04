@@ -53,11 +53,11 @@ Facilita a comunicação entre computadores na rede, permitindo a realização d
 - **`ping [nomedosite.com]`**  
   Testa a conectividade do seu desktop até o site informado.
 
+## Mão na massa
 
+Baixe o [VirtualBox](https://www.virtualbox.org/)
+e com o auxilio do professor Baixe a [ISO do Windows XP](https://drive.google.com/file/d/1MomeTvtlHJhn48us-nhfQ4lJ7GrWMwH8/view?usp=sharing)
 
-Baixe o https://www.virtualbox.org/
-e com o auxilio do professor Instale a ISO do Windows XP
-https://drive.google.com/file/d/1MomeTvtlHJhn48us-nhfQ4lJ7GrWMwH8/view?usp=sharing
 
 Como Alterar o Hostname Windows XP
 
