@@ -18,7 +18,7 @@ Neste guia, você aprenderá a configurar uma máquina virtual usando o **Oracle
 ### **2.1. Baixando o VirtualBox**
 1. Acesse o site oficial: [VirtualBox](https://www.virtualbox.org/).
 2. Clique em **Download**.
-3. Escolha a opção **Windows Hosts** para sistemas Windows.
+3. Escolha a opção **Windows Hosts**
 
 ### **2.2. Instalando o VirtualBox**
 1. Abra o arquivo baixado.
@@ -51,7 +51,7 @@ Neste guia, você aprenderá a configurar uma máquina virtual usando o **Oracle
 1. Abra o **Oracle VirtualBox**.
 2. Clique em **Novo**.
 3. Preencha as informações:
-   - **Nome:** *Win 10 Microlins* (ou outro nome que preferir).
+   - **Nome:** *Win 10 Microlins* .
    - **Imagem ISO:** Selecione o arquivo ISO baixado anteriormente.
    - Marque a opção **Pular Instalação Desassistida**.
 
