@@ -73,7 +73,7 @@ Neste guia, você aprenderá a configurar uma máquina virtual usando o **Oracle
 1. Na lista de máquinas virtuais, clique na que você criou.
 2. Clique em **Iniciar**.
 3. O instalador do Windows será carregado. Siga as etapas de instalação.
-
+4. Apos a Instalação do Windows deverá ser realizado a instalação dos Drives de Convidados do Virtualbox, Para isso Clique Dispositivos , Inserir Imagem de CD dos Adicionais para Convidado e no Gerenciador de Arquivos do Windows execute o Disco.
 ---
 
 ## **6. Conclusão**
