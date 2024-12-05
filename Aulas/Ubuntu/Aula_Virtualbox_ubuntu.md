@@ -50,7 +50,7 @@ Antes de começar, você precisa garantir que a virtualização esteja ativada n
 1. Abra o **Oracle VirtualBox**.
 2. Clique em **Novo** para criar uma nova máquina virtual.
 3. Preencha as informações:
-   - **Nome**: Ubuntu (ou outro nome que preferir).
+   - **Nome**: Ubuntu.
    - **Tipo**: Linux.
    - **Versão**: Ubuntu (64-bit).
    - **Pular Instalação dessasistida**: Selecione.
